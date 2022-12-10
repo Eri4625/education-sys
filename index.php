@@ -1,10 +1,11 @@
-<?php require_once( dirname( __FILE__ ) . '/../../../wp-load.php' ); if (!is_user_logged_in()) { echo '※ 閲覧にはログインが必要です。'; return;} $user = wp_get_current_user(); if (strpos('./files/4620015/4620015_ESD_final.php',$user->user_login) === false && $user->roles[0] === "subscriber") { echo '※ 他者のコードは閲覧できません。'; return;} ?></script><script src="https://code.jquery.com/jquery-2.2.4.js"></script><link rel="stylesheet" href="https://esd.kano.ac/editor/css/iziToast.min.css"><script src="https://esd.kano.ac/editor/js/iziToast.min.js"></script><script src="https://esd.kano.ac/editor/js/record.js"></script>
+<?php require_once( dirname( __FILE__ ) . '/../../../wp-load.php' ); if ---
+<!-- Because of the personal names, these two lines will be kept private. -->
 <!DOCTYPE html>
 <html>
   <head>
     <meta charset="UTF-8">
     <title>教育システムデザイン　最終レポート</title>
-    <link href="https://esd.kano.ac/editor/files/4620015/4620015_ESD_final.css" rel="stylesheet">
+    <link href="https://?????/desgin.css" rel="stylesheet">
     <link rel="stylesheet" href="https://unpkg.com/intro.js/minified/introjs.min.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <script src="https://unpkg.com/intro.js/minified/intro.min.js"></script>
@@ -35,15 +36,11 @@
         <h1>みえるみえる電荷の動き</h1><br>
 
         <p class="number">
-          4620015：江里口直
+          Eri
         </p>
       </div>
 
     </div>
-    
-    <p class="alert">
-      このサイトは<a href="https://esd.kano.ac/editor/files/4620015/4620015_ESD_final.php" target="_blank" rel="noopener noreferrer">フルサイズ</a>での視聴を推奨します。
-    </p>
 
     <!--chapter1 (補助説明)-->
     <h3 class="sh3">荷電粒子</h3>
@@ -428,31 +425,6 @@
       </ul>
 
     </div>
-
-    <h2>最終課題</h2>
-    <div class="report">以下の要件を満たす教育システム（理科シミュレーションソフトウェア）を設計・開発をしなさい．
-      <ul>
-        <li>「EBS」 「ゲーミフィケーション」 「ゴールドリブン」 のいずれかをシステム設計に利用</li>
-        <li>システムの利用方法や、学ぶことができる現象（数式）がわかるよう UI/UX を工夫</li>
-        <li>単位や次元については入念に検討し、システム内に明記</li>
-      </ul>
-      また，題材とした理科教育の課題，および課題解決のために実際に実装した機能要求・非機能要求を，以下の解答欄に記入しなさい．
-    </div>
-    <p>荷電粒子の運動</p>
-    <p>
-      機能要求として以下のような要求を想定した。<br>
-      ・荷電粒子の運動を可視化したい<br>
-      ・荷電粒子の運動で遊んで、理解を深めたい<br>
-      ・高校授業で使えるように少し公式なども書いて欲しい。
-    </p>
-    <p>
-      非機能要求として以下のような要求を想定した、<br>
-      ・荷電粒子の運動で遊ぶため各種変数は入力できるようにする<br>
-      ・入力方法はキーボードだけでなくマウスできるようにする<br>
-      ・物体を実際に動かしている感覚にされるため物体をマウスドラッグで移動可能にする<br>
-      ・黒板では描きづらい図を挿入し、公式を視覚的に理解できるようにする<br>
-      ・大学生になった際にこのサイトを見て、さらに得られる知識があるように少し追加する
-    </p>
 
     <script>
       const info = document.getElementById('info');
